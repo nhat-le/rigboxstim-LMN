@@ -96,7 +96,7 @@ InitializeMatlabOpenGL;
 KbQueueCreate();
 KbQueueStart();
 
-HideCursor();
+% HideCursor();
 
 if nargin < 2
   bgColour = 127*[1 1 1]; % mid gray by default
